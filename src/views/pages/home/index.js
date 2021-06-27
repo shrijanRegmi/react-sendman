@@ -39,6 +39,7 @@ const HomePage = () => {
       <Carousel
         className="sendman-carousel"
         controls={false}
+        indicators={images.length > 1}
         interval={3000000}
       >
         {images.map((e) => {
